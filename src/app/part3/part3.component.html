@@ -1,0 +1,15 @@
+<table id="cookies">
+    <tr>
+      <th (click)="sortTable(nameOrder,'name')">Name <img *ngIf="nameOrder=='asc'"src="assets/up.png" ><img src="assets/down.png" *ngIf="nameOrder=='desc'"><img src="assets/sort.png" *ngIf="nameOrder=='a'"></th>
+      <th (click)="sortTable(priceOrder,'price')">Price <img *ngIf="priceOrder=='asc'"src="assets/up.png" ><img src="assets/down.png" *ngIf="priceOrder=='desc'"><img src="assets/sort.png" *ngIf="priceOrder=='a'"></th>
+      <th (click)="sortTable(catOrder,'category')">Category <img *ngIf="catOrder=='asc'"src="assets/up.png" ><img src="assets/down.png" *ngIf="catOrder=='desc'"><img src="assets/sort.png" *ngIf="catOrder=='a'"></th>
+    </tr>
+   
+    <tr *ngFor="let cookie of cookies">
+
+        <td>{{cookie.name}}</td>
+        <td>{{cookie.price}}</td>
+        <td>{{cookie.category}}</td>
+    </tr>
+  </table>
+  

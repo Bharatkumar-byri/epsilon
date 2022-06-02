@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@font-face {
+    font-family: custom-font;
+    src: url('assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: custom-font;
+    src: url('assets/fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: custom-font;
+    src: url('assets/fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf');
+    font-weight: bolder;
+}
+
+*
+{
+    font-family: custom-font;
+}

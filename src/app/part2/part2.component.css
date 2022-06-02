@@ -1,0 +1,41 @@
+
+
+.form
+{
+    padding:40px;
+    font-size:14px;
+    color:#1a1a1a;
+    width:30%;
+    box-sizing: border-box;
+    margin: auto;
+    
+}
+
+
+.form label{
+    
+}
+.form-element
+{
+    border:2px solid #737373;
+    padding:8px;
+    width:100%;
+    color:#737373;
+    margin-top:5px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+.btn{
+    width:100%;
+    color:#ffffff;
+    background-color: #0063e6;
+    padding:8px;
+    border-radius: 5px;
+    border:2px solid #0063e6;
+}
+
+.btn:hover{
+    background-color: #f0f6ff;
+    color:#0063e6
+}
